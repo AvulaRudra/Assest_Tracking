@@ -11,12 +11,8 @@ using dotnet_backend.Data;
 using dotnet_backend.Repositories;
 using dotnet_backend.Services;
 using Microsoft.OpenApi.Models;
-using DotNetEnv;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Load .env file
-Env.Load();
 
 // Add services
 builder.Services.AddControllers();
@@ -74,10 +70,10 @@ builder.Services.AddAuthentication(options =>
 })
 .AddGoogle(options =>
 {
-    options.ClientId = builder.Configuration["Google__ClientId"] ?? "";
-    options.ClientSecret = builder.Configuration["Google__ClientSecret"] ?? "";
+    options.ClientId = builder.Configuration["Google:ClientId"] ?? "";
+    options.ClientSecret = builder.Configuration["Google:ClientSecret"] ?? "";
     options.CallbackPath = "/auth/google/callback";
-})
+});
 // Azure AD - Commented out
 /*
 .AddMicrosoftAccount(options => // Azure AD
