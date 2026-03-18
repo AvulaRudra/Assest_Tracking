@@ -10,6 +10,9 @@
 *.swo
 *~
 
+[Bb]in/
+[Oo]bj/
+
 # OS
 .DS_Store
 Thumbs.db
@@ -119,6 +122,7 @@ obj/
 dotnet_backend/appsettings.json
 dotnet_backend/appsettings.Development.json
 dotnet_backend/appsettings.Production.json
+dotnet_backend/appsettings.*.json
 
 # Firebase service account files
 service-account-key.json
