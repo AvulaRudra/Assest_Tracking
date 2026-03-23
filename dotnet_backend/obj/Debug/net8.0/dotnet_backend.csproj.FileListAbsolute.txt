@@ -6,7 +6,6 @@ C:\Users\10848551\Desktop\Asset_Tracker\Asset_Tracking\dotnet_backend\obj\Debug\
 C:\Users\10848551\Desktop\Asset_Tracker\Asset_Tracking\dotnet_backend\obj\Debug\net8.0\dotnet_backend.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\10848551\Desktop\Asset_Tracker\Asset_Tracking\dotnet_backend\obj\Debug\net8.0\dotnet_backend.sourcelink.json
 C:\Users\10848551\Desktop\Asset_Tracker\Asset_Tracking\dotnet_backend\obj\Debug\net8.0\dotnet_backend.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\10848551\Desktop\Asset_Tracker\Asset_Tracking\dotnet_backend\bin\Debug\net8.0\appsettings.json
 C:\Users\10848551\Desktop\Asset_Tracker\Asset_Tracking\dotnet_backend\bin\Debug\net8.0\dotnet_backend.exe
 C:\Users\10848551\Desktop\Asset_Tracker\Asset_Tracking\dotnet_backend\bin\Debug\net8.0\dotnet_backend.deps.json
 C:\Users\10848551\Desktop\Asset_Tracker\Asset_Tracking\dotnet_backend\bin\Debug\net8.0\dotnet_backend.runtimeconfig.json
