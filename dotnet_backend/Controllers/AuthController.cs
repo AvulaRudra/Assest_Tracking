@@ -109,8 +109,8 @@ public class AuthController : ControllerBase
     {
         _authService     = authService;
         _config          = config;
-        _frontendBaseUrl = _config["FrontendBaseUrl"] ?? "https://localhost:4200";
-        _backendBaseUrl  = _config["BackendBaseUrl"]  ?? "https://localhost:5000";
+        _frontendBaseUrl = _config["FrontendBaseUrl"] ?? "http://localhost:4200";
+        _backendBaseUrl  = _config["BackendBaseUrl"]  ?? "http://localhost:5000";
         _clientId        = _config["Google:ClientId"] ?? "";
         _clientSecret    = _config["Google:ClientSecret"] ?? "";
     }
